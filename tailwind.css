@@ -1,0 +1,185 @@
+.first-div {
+    /* background-color: yellow; */
+    width: 100%;
+    padding-right: 5rem;
+}
+
+.logo-div {
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+
+.logo-div-tag {
+    display: inline-block;
+}
+
+.logo-writeup {
+    display: inline-block;
+}
+
+.logo-div-name {
+    font-size: 4rem;
+    color: orange;
+    margin-bottom: -20px;
+}
+
+.logo-div-bank {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.logo-div-slang {
+    margin-left: 70px;
+    color: orange;
+}
+
+.intro-name {
+    font-size: 3rem;
+    color: black;
+}
+
+.load-page-para {
+    margin-left: 3rem;
+}
+
+.intro-para {
+    font-size: 1.2rem;
+}
+
+.login-div {
+    margin-top: 3rem;
+}
+
+.username-class {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    /* width: 30rem; */
+    border-color: grey;
+    height: 2.5rem;
+    border-radius: 5px;
+    padding-left: 3.5rem;
+    padding-right: 5rem;
+    opacity: 0.6;
+    margin: 5px 0;
+
+}
+
+.username-div {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.username-icon {
+    position: absolute;
+    top: 2.7rem;
+    left: 1.5rem;
+    opacity: 0.6;
+}
+
+.login-class {
+    display: block;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.checkbox-logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    background-color: yellow;
+}
+
+.checkbox-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* background-color: blue; */
+}
+
+.remember-me {
+    /* background-color: green; */
+    margin-bottom: -15px;
+}
+
+/* .circle-class{
+    font-size: 50rem;
+} */
+.dashboard-para {
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.dashboard-para-one {
+    font-size: 2.3rem;
+    width: 30rem;
+    margin-top: 5rem;
+}
+
+.dashboard-para-two {
+    font-size: 1rem;
+}
+
+.dashboard-advert {
+    margin-left: 5rem;
+    background-color: #e8f1ff;
+}
+
+.advert-div {
+    background-color: #e8f1ff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 850px;
+}
+
+@media(max-width: 1028px) {
+    .advert-div {
+        height: 100%;
+    }
+}
+
+.second-div {
+    background-color: white;
+    padding: 1rem 2rem 1rem 0;
+}
+
+.dashboard-advert-logo {
+    /* position: absolute; */
+    margin-left: 15rem;
+}
+
+.dashboard-advert-pic {
+    position: absolute;
+    left: 7rem;
+    top: 23rem;
+}
+
+.hollow-circle {
+    position: absolute;
+    left: -8rem;
+    top: -8rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 20px solid #2b6cb0;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.eye-icon {
+    margin-left: 90%;
+    position: absolute;
+    z-index: 10;
+}
+
+.password-username {
+    position: absolute;
+    z-index: 5;
+}

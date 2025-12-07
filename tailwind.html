@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="load-page" class="flex flex-col md:flex-row w-full">
+        <div class="flex w-full md:w-1/2">
+            <div class="first-div">
+                <div class="logo-div">
+                    <div class="logo-div-tag">
+                        <img src="images/LAPO_official_logo.png" alt="">
+                    </div>
+                    <div class="logo-writeup">
+                        <h1 class="logo-div-name">
+                            LAPO
+                        </h1>
+                        <h2 class="logo-div-bank">
+                            Microfinance Bank
+                        </h2>
+                        <p class="logo-div-slang">
+                            .....improving lives
+                        </p>
+                    </div>
+                </div>
+                <div class="load-page-para">
+                    <div class="introduction-div">
+                        <h1 class="intro-name"> <!-- should be in 1 div -->
+                            Hi Welcome Back!
+                        </h1>
+                        <p class="intro-para">
+                            Please sign in using your credentials.
+                        </p>
+                    </div>
+
+                    <!-- All input boxes should span the full length of the container -->
+                    <div class="login-div">
+                        <form action="">
+                            <div class="username-div">
+                                <label for="">Username</label>
+                                <i class="fa fa-user fa-lg username-icon" aria-hidden="true"></i>
+                                <input class="username-class" type="text" name="YOUR NAME" value=""
+                                    placeholder="Username">
+                            </div>
+                            <div id="user-ID">
+                                <div class="username-section">
+                                    <div class="username-div">
+                                        <label for="">Password</label>
+                                        <i class="fa fa fa-lock fa-lg username-icon" aria-hidden="true"></i>
+                                        <div><i class="fa fa-eye fa-lg username-icon eye-icon" aria-hidden="true"></i></div>
+                                        
+                                        <input class="username-class password-username" type="password" value=""
+                                            placeholder="Password">
+                                    </div>
+                                    <!-- this shouldn't be a div -->
+                                    <p>Forgot password</p>
+                                    <div class="checkbox-div">
+                                        <input class="checkbox-logo" type="checkbox" name="" value="">
+                                        <p class="remember-me">Remember me</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <input class="login-class" type="submit" name="" value="Login" />
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="second-div w-full md:w-1/2">
+            <div class="advert-div">
+                <div class="dashboard-para">
+                    <div class="hollow-circle" aria-hidden="true"></div>
+                    <h1 class="dashboard-para-one">The simplest way to manage your cards</h1>
+                    <h3 class="dashboard-para-two">Enter your credentials to access your account</h3>
+                </div>
+                <div class="dashboard-advert">
+                    <div class="dashboard-advert-logo">
+                        <img src="images/LAPO-dashboard.png" alt="">
+                    </div>
+                    <div class="dashboard-advert-pic">
+                        <img src="images/LAPO-edit.png" alt="">
+                    </div>
+
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- <div>
+        DESIGNED BY BLAZE
+    </div> -->
+    </div>
+</body>
+<footer>
+    <script src="tailwind.js"></script>
+</footer>
+
+</html>
